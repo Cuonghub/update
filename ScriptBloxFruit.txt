@@ -9027,10 +9027,14 @@ ToggleWhiteBelt:OnChanged(function(Value)
     end
 end)
 local DracoV4 = Tabs.Sea:AddParagraph({
-    Title="Auto Fly"
+    Title="Auto Trial Draco",
+    Content="Comning Soon"
+})
+Tabs.Sea:AddButton({
+    Title="Auto Fly",
     Description="",
     Callback=function()
-	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Cuonghub/MenuGuiFly_DracoV4/refs/heads/main/FlyGuiUpDracoV4.txt"))()
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/Cuonghub/MenuGuiFly_DracoV4/refs/heads/main/FlyGuiUpDracoV4.txt"))()j
   end
 })
 local ToggleTrialTeleport = Tabs.Sea:AddToggle("ToggleTrialTeleport", {
